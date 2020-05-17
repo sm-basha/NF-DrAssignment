@@ -180,5 +180,7 @@ td:hover{background-color: #74d4c0; color: #fff; }
   li{margin: 0 10px;
   }
   .form-inline{visibility: hidden;}
+  .navbar{text-align: center;}
+  .btnphone{margin: 0;}
 
 }
