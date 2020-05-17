@@ -1,0 +1,184 @@
+body{
+    background-color: #74d4c0;
+    margin-bottom: 15px;
+}
+
+/* NAVBAR */
+nav{margin-top: 5px;}
+.navbar{margin: 5px 0 0; padding-right: 0;}
+ul{margin-left: 10%;}
+li{margin: 0 20px; font-weight: 500; font-size: 1.2rem; padding: 0.7rem 0;}
+
+
+.btnphone{margin-left: 150px;}
+.phone:hover{color: #000;}
+#mainbox{
+    background-image: url('images/dental-chamber.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.row{margin: 0;}
+h1{font-size: 4rem;}
+p{line-height: 2rem;}
+span a{color: aqua; font-weight: 500;}
+
+.colbox{
+    padding: 10%;
+    color: #fff;
+}
+.drBtn{border-radius: 3rem;
+  font-weight: 500;
+  border: 1px solid rgb(167, 172, 177);
+  padding: 7px 21px;}
+
+
+/* BOOK Appointment */
+
+#bookApt{
+  background-color: #fff;
+  padding: 30px;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+input[type=text] {
+    display:block;
+    margin: 0 0 0 auto;
+    width: 50px;
+    margin-left: 100px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    font-size: 16px;
+    background-image: url("images/searchIcon.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding:    7px 21px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  input[type=text]:focus {
+    width: 150px;
+  }
+
+
+
+fieldset{border:2px solid #74d4c0;border-radius: 0.5rem;}
+
+legend{
+  color: #000;
+font-size: 1rem;
+display: block;
+    width: 100%;
+    max-width: 17%;
+    padding: 0px;
+    margin-left: 1.5rem;margin-bottom: 0;}
+
+  .form-group>label{
+    color: #000;
+  }
+
+  .form-group{
+    border:2px solid;
+    padding-top: 15px;
+  }
+  .form-group>input{
+    border:none;
+  }
+  .form-control{font-size: 1.2rem; height: 60px;padding-top: 0; border: 0; }
+
+
+
+  select {
+    background-image:
+      linear-gradient(45deg, transparent 50%, #74d4c0 60%),
+      linear-gradient(135deg, #74d4c0 40%, transparent 50%) !important;
+    background-position:
+      calc(100% - 30px) 24px,
+      calc(100% - 20px) 24px,
+      100% 0;
+    background-size:
+      10px 10px,
+      10px 10px;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+
+  /* table */
+table{background-color: #fff;
+  text-align: center; }
+
+a{text-decoration: none; color:#000; font-size: 1rem;}
+a:hover{text-decoration: none; color:#fff; font-size: 1rem;}
+td:hover{background-color: #74d4c0; color: #fff; }
+
+
+
+.lineThrough{
+  text-decoration:line-through;
+  color: rgb(167, 172, 177);
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  opacity: 1;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.btnCONTINUE{
+  background-color:#74d4c0 ;
+  color: #fff;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.btnCONTINUE:hover{color: #fff;}
+
+
+
+.attribution{
+  text-align: center;
+}
+
+
+@media(max-width:1300px){
+  li{margin: 0 10px;
+  }
+  .form-inline{visibility: hidden;}
+
+}
