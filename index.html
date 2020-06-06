@@ -78,12 +78,23 @@
                 </div>
 
 
-                <div class="col-lg-6 colbox">
+
+
+                <div class="col-lg-6 colbox2">
+                  <!-- Enquiry Box -->
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th style="height: 80px; border-bottom: 5px solid #74d4c0; vertical-align:middle;" colspan="2"><a class="phone" style="font-size: 1.2rem; font-weight: bold;" href="">Book Appointment</a></th>
+                        <th style="height: 80px;font-size: 1.2rem; vertical-align:middle; color: rgb(167, 172, 177)" colspan="2">Have an enquiry?</th>
+                      </tr>
+                    </thead>
+                  </table>
+
 
                   <div id="bookApt">
-
-                    <form id="first_name">
-                      <div class="form-group">
+                    <!-- Purpose - Consultation -->
+                      <form id="first_name">
                         <fieldset>
                           <legend>Purpose</legend>
                           <select class="form-control" >
@@ -92,89 +103,75 @@
                             <option>Something else</option>
                           </select>
                         </fieldset>
+                      </form>
 
+                     <!-- Date Picker & Table-->
+                      <table class="table table-bordered w">
                       </div>
-                  </form>
-
-
-
-
-                  <table class="table table-bordered">
-                    <thead>
+                      <tbody>
                       <tr>
-                        <th style="height: 80px; border-bottom: 5px solid #74d4c0; vertical-align:middle;" colspan="2"><a class="phone" style="font-size: 1.2rem; font-weight: bold;" href="">Book Appointment</a></th>
-                        <th style="height: 80px;font-size: 1.2rem; vertical-align:middle; color: rgb(167, 172, 177)" colspan="2">Have an enquiry?</th>
+                        <td class="arrowBox notHover"><button type="button" class="arrow-left "></button></td>
+                        <td class="arrowBox notHover btnDate" colspan="2"><span>Today (Sun, 7 Aug)</span> </td>
+                        <td class="arrowBox notHover"><div><button type="button" class="arrow-right"></button>   </div></td>
+                      </tr>
+                      <tr>
+                        <td rowspan="3" class="notHover"><img src="images/morning.png" width="50px" alt=""> <br> Morning</td>
+                        <td><div class="tooltip"><a href="">10.00 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
+                        <td><div class="tooltip"><a href="">10.30 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
+                      <td style="text-decoration:line-through; color: rgb(167, 172, 177);">11.00 AM</td>
+                      </tr>
+                      <tr>
+                        <td class="lineThrough">11.30 AM</td>
+                        <td class="lineThrough">12.00 AM</td>
+                        <td><a href=""> - </a></td>
+                      </tr>
+                      <tr>
+                        <td><div class="tooltip"><a href="">01.30 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
+                        <td class="lineThrough">02.00 PM</td>
+                        <td class="lineThrough">02.30 PM</td>
+                      </tr>
+
+                      <tr>
+                        <td rowspan="3" class="notHover"><img src="images/evening.png" width="50px" alt=""> <br> Evening</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td><div class="tooltip"><a href="">04.00 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
+                      </tr>
+                      <tr>
+                        <td class="lineThrough">04.30 PM</td>
+                        <td><div class="tooltip"><a href="">05.00 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
+                        <td class="lineThrough">05.30 PM</td>
+                      </tr>
+                      <tr>
+                        <td><div class="tooltip"><a href="">06.00 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
+                        <td><div class="tooltip"><a href="">06.30 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
+                        <td class="lineThrough">07.00 PM</td>                      </tr>
+
+                      <tr>
+                        <td rowspan="3" class="notHover"><img src="images/night.png" width="50px" alt=""> <br> Night</td>
+                        <td><div class="tooltip"><a href="">07.30 PM</a> <span class="tooltiptext">Slot is available</span> </div></td>
+                        <td>-</td>
+                        <td class="lineThrough">08.30 PM</td>
+                      </tr>
+                      <tr>
+                        <td>-</td>
+                        <td><div class="tooltip"><a href="">09.00 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
+                        <td><div class="tooltip"><a href="">09.30 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
 
                       </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                      <td rowspan="3"><img src="images/morning.png" width="50px" alt=""> <br> Morning</td>
-                      <td><div class="tooltip"><a href="">10.00 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
-                      <td><div class="tooltip"><a href="">10.30 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
-                     <td style="text-decoration:line-through; color: rgb(167, 172, 177);">11.00 AM</td>
-                    </tr>
-                    <tr>
-                      <td class="lineThrough">11.30 AM</td>
-                      <td class="lineThrough">12.00 AM</td>
-                      <td><a href=""> - </a></td>
-                    </tr>
-                    <tr>
-                      <td><div class="tooltip"><a href="">01.30 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
-                      <td class="lineThrough">02.00 PM</td>
-                      <td class="lineThrough">02.30 PM</td>
-                    </tr>
+                      <tr>
+                        <td><div class="tooltip"><a href="">10.00 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
 
-                    <tr>
-                      <td rowspan="3"><img src="images/evening.png" width="50px" alt=""> <br> Evening</td>
-                      <td>-</td>
-                      <td>-</td>
-                      <td><div class="tooltip"><a href="">04.00 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
-                     </tr>
-                     <tr>
-                      <td class="lineThrough">04.30 PM</td>
-                      <td><div class="tooltip"><a href="">05.00 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
-                      <td class="lineThrough">05.30 PM</td>
-                     </tr>
-                     <tr>
-                      <td><div class="tooltip"><a href="">06.00 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
-                      <td><div class="tooltip"><a href="">06.30 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
-                       <td class="lineThrough">07.00 PM</td>                      </tr>
+                        <td>-</td>
+                        <td>-</td>
+                      </tr>
+                      </tbody>
 
-                     <tr>
-                      <td rowspan="3"><img src="images/night.png" width="50px" alt=""> <br> Night</td>
-                      <td><div class="tooltip"><a href="">07.30 PM</a> <span class="tooltiptext">Slot is available</span> </div></td>
-                      <td>-</td>
-                      <td class="lineThrough">08.30 PM</td>
-                     </tr>
-                     <tr>
-                      <td>-</td>
-                      <td><div class="tooltip"><a href="">09.00 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
-                      <td><div class="tooltip"><a href="">09.30 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
-
-                     </tr>
-                     <tr>
-                       <td><div class="tooltip"><a href="">10.00 PM</a> <span class="tooltiptext"> Slot is available </span> </div></td>
-
-                       <td>-</td>
-                       <td>-</td>
-                     </tr>
-                    </tbody>
-
-                   </table>
-                   <button type="button" class="btn btnCONTINUE btn-lg btn-block">CONTINUE</button>
-
-
-
-
-
-
+                      </table>
+                      <button type="button" class="btn btnCONTINUE btn-lg btn-block">CONTINUE</button>
                   </div>
 
                 </div>
-
-
-
             </div>
         </div>
 
@@ -187,12 +184,12 @@
 
 
 </body>
-<!-- <footer>
+<footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Challenge by <a href="" target="_blank">SM</a>. 
       Coded by <a href="#">S.M.Basha</a>.
     </p>
-  </footer> -->
+  </footer>
 
 
 </html>
