@@ -13,10 +13,9 @@ li{margin: 0 20px; font-weight: 500; font-size: 1.2rem; padding: 0.7rem 0;}
 .btnphone{margin-left: 150px;}
 .phone:hover{color: #000;}
 #mainbox{
-    background-image: url('images/dental-chamber.jpg');
+    background:linear-gradient(to right, rgba(16,14,23, 0.73), rgba(255, 255, 255, 0.52)), url('images/dental-chamber.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 .row{margin: 0;}
 h1{font-size: 4rem;}
@@ -24,8 +23,11 @@ p{line-height: 2rem;}
 span a{color: aqua; font-weight: 500;}
 
 .colbox{
-    padding: 10%;
-    color: #fff;
+  padding: 270px 110px 0 236px;
+  color: #fff;
+}
+.colbox2{
+  padding: 140px 456px 56px 30px;  color: #fff;
 }
 .drBtn{border-radius: 3rem;
   font-weight: 500;
@@ -35,9 +37,11 @@ span a{color: aqua; font-weight: 500;}
 
 /* BOOK Appointment */
 
+.table{margin-bottom: 0;}
+.w{margin: 1rem 0;}
 #bookApt{
   background-color: #fff;
-  padding: 30px;
+  padding:10px 30px 30px;
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
@@ -73,7 +77,7 @@ display: block;
     width: 100%;
     max-width: 17%;
     padding: 0px;
-    margin-left: 1.5rem;margin-bottom: 0;}
+    margin-left: 1.5rem;margin-bottom: -10px;}
 
   .form-group>label{
     color: #000;
@@ -87,6 +91,28 @@ display: block;
     border:none;
   }
   .form-control{font-size: 1.2rem; height: 60px;padding-top: 0; border: 0; }
+
+.dropright .dropdown-toggle::after,.dropleft .dropdown-toggle::before {content: none;}
+
+.arrowBox{
+  border-radius: 5px;
+}
+.arrow-left{
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-right: 12px solid;
+  border-left: transparent;
+  background: transparent;
+  vertical-align: middle;
+}
+.arrow-right {
+  background: transparent;
+  border-top: 12px solid transparent;
+  border-bottom:12px solid transparent;
+  border-right: transparent;
+  border-left: 12px solid;
+  vertical-align: middle;
+}
 
 
 
@@ -107,14 +133,46 @@ display: block;
   }
 
 
+.date-picker{
+  width: 100%;
+    font-size: 1.2rem;
+    height: 70px;
+    vertical-align: middle;
+}
+.btn-group>.btn {
+  margin: 15px 0;
+  height: 60px;
+}
+.dropdown-toggle-split{
+  padding: 0 30px;
+}
+.btnDate{
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
   /* table */
 table{background-color: #fff;
   text-align: center; }
+
+  .table td, .table th {
+    padding: .75rem 0;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+}
 
 a{text-decoration: none; color:#000; font-size: 1rem;}
 a:hover{text-decoration: none; color:#fff; font-size: 1rem;}
 td:hover{background-color: #74d4c0; color: #fff; }
 
+.notHover:hover{background-color: transparent; color: #000;}
 
 
 .lineThrough{
@@ -169,7 +227,7 @@ td:hover{background-color: #74d4c0; color: #fff; }
 
 .btnCONTINUE:hover{color: #fff;}
 
-
+button{outline: none;}
 
 .attribution{
   text-align: center;
@@ -182,5 +240,20 @@ td:hover{background-color: #74d4c0; color: #fff; }
   .form-inline{visibility: hidden;}
   .navbar{text-align: center;}
   .btnphone{margin: 0;}
+  .colbox2{
+    padding: 75px 136px 56px 150px;}
+
+}
+@media(max-width:1500px){
+  .colbox2{
+    padding: 50px;}
+    .colbox{padding:100px}
+}
+@media(max-width:700px){
+  .colbox2, .colbox{    padding: 5px;}
+  h1{font-size: 3rem;}
+  p{font-size: 1rem;}
+  a, .lineThrough{font-size: 0.7rem;}
+  a:hover{font-size: 0.7rem;}
 
 }
