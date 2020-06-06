@@ -1,6 +1,6 @@
 body{
     background-color: #74d4c0;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 /* NAVBAR */
@@ -229,9 +229,6 @@ td:hover{background-color: #74d4c0; color: #fff; }
 
 button{outline: none;}
 
-.attribution{
-  text-align: center;
-}
 
 
 @media(max-width:1300px){
